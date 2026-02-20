@@ -98,7 +98,7 @@ I run mine via [OpenClaw](https://openclaw.ai) — an AI agent platform — whic
       "apiName": "CROSSFIT",     // Must match Arbox API exactly (case-sensitive)
       "day": "monday",           // Day of week (lowercase)
       "time": "07:00",           // Class time
-      "locationId": 18,          // Location/room ID from Arbox
+      "locationId": 123,          // Location/room ID from Arbox (find yours via network inspector)
       "bookAt": "22:00",         // When booking opens for this class
       "priority": 1,             // Lower = booked first
       "enabled": true
