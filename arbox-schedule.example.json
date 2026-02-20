@@ -1,0 +1,45 @@
+{
+  "bookingWindow": {
+    "description": "When does booking open for classes? Most gyms open 3 days ahead at 22:00.",
+    "defaultOpensAt": "22:00",
+    "daysAhead": 3
+  },
+  "locations": {
+    "mainFloor": { "id": 0, "name": "Main Floor — replace with your location ID" },
+    "studio": { "id": 0, "name": "Studio — replace with your location ID" }
+  },
+  "classes": [
+    {
+      "name": "CrossFit",
+      "apiName": "CROSSFIT",
+      "day": "monday",
+      "time": "07:00",
+      "locationId": 0,
+      "bookAt": "22:00",
+      "priority": 1,
+      "enabled": true,
+      "note": "Replace locationId with your gym's location ID. apiName must match exactly what Arbox returns."
+    },
+    {
+      "name": "CrossFit",
+      "apiName": "CROSSFIT",
+      "day": "wednesday",
+      "time": "07:00",
+      "locationId": 0,
+      "bookAt": "22:00",
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Mobility",
+      "apiName": "Mobility",
+      "day": "friday",
+      "time": "09:00",
+      "locationId": 0,
+      "bookAt": "22:00",
+      "priority": 2,
+      "enabled": false,
+      "note": "Set enabled: false to skip this class"
+    }
+  ]
+}

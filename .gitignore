@@ -1,0 +1,5 @@
+arbox-schedule.json
+arbox-bookings.json
+.env
+*.log
+node_modules/
